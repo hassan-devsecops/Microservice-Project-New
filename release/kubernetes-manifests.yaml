@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/cartservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/cartservice:73f6d19cc092871e52a0bdb5353a6d8898f90e18
         ports:
         - containerPort: 7070
         env:
