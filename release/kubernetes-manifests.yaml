@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/currencyservice:8f6e23255389005a2f6d6753fa9afcfecb5c1a02
+        image: ghcr.io/hassan-devsecops/currencyservice:96a3cacb20b19eed4e9812209d92785fea869a0d
         ports:
         - name: grpc
           containerPort: 7000
