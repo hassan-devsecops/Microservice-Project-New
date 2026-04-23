@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/shippingservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/shippingservice:c7c05d1dfc30163d7af61cff2481723c9729b1b6
         ports:
         - containerPort: 50051
         env:
