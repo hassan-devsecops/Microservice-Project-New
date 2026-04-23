@@ -1,5 +1,5 @@
 name: Microservices GHCR CICD
-# trigger test
+# trigger tests
 on:
   push:
     branches: [ main ]
