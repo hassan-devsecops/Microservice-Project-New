@@ -866,7 +866,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/recommendationservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/recommendationservice:f7e2e6571da51a10815b1d1da107468346339d65
         ports:
         - containerPort: 8080
         readinessProbe:
