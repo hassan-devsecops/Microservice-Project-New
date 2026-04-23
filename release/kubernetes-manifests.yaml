@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/hassan-devsecops/checkoutservice:c5dd7d7c539e9536bc0e29505e009f87e323079f
+          image: ghcr.io/hassan-devsecops/checkoutservice:f767b92dec276b88b8655198d04669895de3df88
           ports:
           - containerPort: 5050
           readinessProbe:
