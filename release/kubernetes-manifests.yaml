@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/loadgenerator:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/loadgenerator:052a8073ec1d23a4f6d7d45f96bb56a286bbffb2
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
