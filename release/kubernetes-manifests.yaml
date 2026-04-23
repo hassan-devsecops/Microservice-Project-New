@@ -578,7 +578,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/emailservice:2982d3409659791694ed55a1f12f881ec4d7552a
+        image: ghcr.io/hassan-devsecops/emailservice:59a55d105acc47edc07b4345ca439f6e9149cff6
         ports:
         - containerPort: 8080
         env:
