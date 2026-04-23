@@ -661,7 +661,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/paymentservice:e8fdd88e064f1de344b76ec0fcf29ffc8bd7819f
+        image: ghcr.io/hassan-devsecops/paymentservice:c9db3bee55186b40227b6357ba9feb31c5c02f3a
         ports:
         - containerPort: 50051
         env:
