@@ -945,7 +945,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/adservice:b1f9443439dd196893b88a1bf7cf482ecfc6dc46
+        image: ghcr.io/hassan-devsecops/adservice:df303b688cc06118670d25f079875f35fb29aeda
         ports:
         - containerPort: 9555
         env:
