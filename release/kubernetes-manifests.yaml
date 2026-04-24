@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/currencyservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/currencyservice:96a3cacb20b19eed4e9812209d92785fea869a0d
         ports:
         - name: grpc
           containerPort: 7000
@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/loadgenerator:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/loadgenerator:052a8073ec1d23a4f6d7d45f96bb56a286bbffb2
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -198,7 +198,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/productcatalogservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/productcatalogservice:39a007951f003c5c15d62f90a4cda9fc6e32fb7c
         ports:
         - containerPort: 3550
         env:
@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/hassan-devsecops/checkoutservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+          image: ghcr.io/hassan-devsecops/checkoutservice:f767b92dec276b88b8655198d04669895de3df88
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/shippingservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/shippingservice:c7c05d1dfc30163d7af61cff2481723c9729b1b6
         ports:
         - containerPort: 50051
         env:
@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/cartservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/cartservice:73f6d19cc092871e52a0bdb5353a6d8898f90e18
         ports:
         - containerPort: 7070
         env:
@@ -578,7 +578,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/emailservice:2982d3409659791694ed55a1f12f881ec4d7552a
+        image: ghcr.io/hassan-devsecops/emailservice:59a55d105acc47edc07b4345ca439f6e9149cff6
         ports:
         - containerPort: 8080
         env:
@@ -661,7 +661,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/paymentservice:e8fdd88e064f1de344b76ec0fcf29ffc8bd7819f
+        image: ghcr.io/hassan-devsecops/paymentservice:c9db3bee55186b40227b6357ba9feb31c5c02f3a
         ports:
         - containerPort: 50051
         env:
@@ -737,7 +737,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/hassan-devsecops/frontend:6ddc9ef0f082c8f1cc7e668f6f2a03918fa7da0a
+          image: ghcr.io/hassan-devsecops/frontend:20549f6c2404dd7b2e572d8c687b421ef0bfccc8
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -866,7 +866,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/recommendationservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/hassan-devsecops/recommendationservice:f7e2e6571da51a10815b1d1da107468346339d65
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -945,7 +945,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/hassan-devsecops/adservice:b1f9443439dd196893b88a1bf7cf482ecfc6dc46
+        image: ghcr.io/hassan-devsecops/adservice:df303b688cc06118670d25f079875f35fb29aeda
         ports:
         - containerPort: 9555
         env:
